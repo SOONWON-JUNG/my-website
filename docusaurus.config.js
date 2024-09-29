@@ -13,10 +13,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://soonwon-jung.github.io',
+  //url: 'https://soonwon-jung.github.io',
+  //baseUrl: '/my-website/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  url: 'https://{site-name}.netlify.app',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
