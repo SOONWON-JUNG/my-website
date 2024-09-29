@@ -17,7 +17,7 @@ const config = {
   //baseUrl: '/my-website/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  url: 'https://{site-name}.netlify.app',
+  url: 'https://stupendous-quokka-e0811f.netlify.app/',
   baseUrl: '/',
 
   // GitHub pages deployment config.
