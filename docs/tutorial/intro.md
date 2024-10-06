@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# FAQ Intro
+# Tutorial Intro
 
-Let's discover **Docusaurus in less than 100 minutes**.
+Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
 

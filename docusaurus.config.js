@@ -84,16 +84,42 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'alpsFAQSidebar',
             position: 'left',
-            label: 'ALPS FAQ🛠',
+            label: 'ALPS FAQ🎁',
           },
-          {to: '/blog', label: 'Blog📄', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'alpsConventionSidebar',
+            position: 'left',
+            label: 'ALPS Convention🚀',
           },
+          {
+            label: '즐겨찾기📌',
+            position: 'left',
+            items: [
+              {
+                label: '담당자 안내📢',
+                to: '/docs/ALPS/system_contacts',
+              },
+              {
+                label: 'docusaurus 가이드🎫',
+                href: 'https://docusaurus.io/docs',
+              },
+              {
+                label: 'ALPS🚚',
+                href: 'https://alps.llogis.com/main/pages/sec/authentication',
+              },
+            ],
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'right',
+            label: 'Docusaurus Tutorial🎈',
+          },
+          {to: '/blog', label: '기술 Blog📄', position: 'right'}
+        
         ],
       },
       footer: {
@@ -103,12 +129,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'ALPS FAQ🛠',
-                to: '/docs/system_contacts',
+                label: 'ALPS FAQ🎁',
+                to: '/docs/ALPS/system_contacts',
               },
               {
-                label: 'ALPS CONVENTION⚙️',
-                to: '/docs/intro',
+                label: 'ALPS Convention🚀',
+                to: '/docs/convention/intro',
               },          
             ],
           },
@@ -133,7 +159,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog📄',
+                label: '기술 Blog📄',
                 to: '/blog',
               },
               {
@@ -149,7 +175,17 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+
+      announcementBar: {
+        id: 'SSG Celebration',
+        content:
+        '<b>✨ SSG의 무한한 가능성에 첫 발을 내딛다! | 지금 바로 <a href="/docs/ALPS/system_contacts">ALPS FAQ</a>를 확인하세요! 🚀</b>',
+        backgroundColor: '#4CAF50', 
+        textColor: '#ffffff',
+        isCloseable: true,
+    },
+
+  }),
 };
 
 export default config;

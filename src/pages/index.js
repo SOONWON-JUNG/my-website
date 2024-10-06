@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            원하는 답변을 바로 찾아보세요 ⏱️
+            to="/docs/tutorial/intro">
+            Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
