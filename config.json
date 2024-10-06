@@ -1,7 +1,5 @@
 {
-  "indexName": "ALPS_SSG",
-  "app_id": "KQNIV3SFYK",
-  "api_key": "707da2b68bd0ef18078a9f0655f0be74",
+  "index_name": "ALPS_SSG",
   "start_urls": [
     "https://ssg-alps-init.netlify.app/"
   ],
